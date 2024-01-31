@@ -3,9 +3,9 @@ import Card from "./components/Card";
 
 export default function Home() {
   return (
-    <div className="flex gap-56 ">
-      <Card header="Zdeněk Sojka"></Card>
-      <Card header="About Me">
+    <div className="flex justify-between gap-64">
+      <Card width="2/5" header="Zdeněk Sojka"></Card>
+      <Card width="3/5" header="About Me">
         <p>
           Hello! I'm a high schooler on the cusp of turning 18, with my roots
           firmly planted in the Czech Republic. Born on April 17, 2005,
